@@ -1,0 +1,205 @@
+@media (max-width:1319px){
+  .fotos_about{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1r 1fr;
+  }
+  .intro_about{
+    margin: 0px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-wrap: balance;
+    width: fit-content;
+    text-align: center;
+  }
+  .intro_about h5{
+    text-wrap: balance;
+    width: 90%;
+  }
+  .titulo_about p{
+    font-size: calc(100%);
+  }
+  .fotos_about p{
+    font-size: calc(100%);
+  }
+}
+@media (max-width:1037px) {
+  .resume_servicios{
+    height: fit-content;
+  }
+  .categorias{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr repeat(7);
+  }
+  .cat{
+    margin-top: 25px;
+    width: calc(60%);
+    justify-self: center;
+  }
+  .cabecera p{
+    display: none;
+  }
+  .intro_about h5{
+    font-size: calc(120%);
+  }
+  .intro_about p{
+    width: 90%;
+  }
+}
+@media (max-width: 1000px) {
+  .esfera {
+    width: 300px;
+  }
+}
+@media (max-width: 920px) {
+  .esfera {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .barra {
+    width: calc(99vw - 5px);
+    height: 50px;
+    display: flex;
+  }
+  .logo-barra{
+    grid-column: 2/3;
+    width: 100%;
+  }
+  .iconos {
+    display: none;
+  }
+  .hero {
+    margin: 5px;
+    height: 500px;
+    margin-top: 60px;
+  }
+  .active {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+  }
+  .active .logo-barra{
+    transition: all 0.5s;
+    grid-column: 1/2;
+  }
+  .logo-nav {
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+  .logo-barra {
+    align-self: self-start;
+    margin-top: 10px;
+    justify-self: start;
+  }
+  .logo-nav p {
+    align-self: self-start;
+    margin-top: 15px;
+  }
+  .equis {
+    align-self: flex-start;
+    margin-top: 15px;
+  }
+  .texto-nav {
+    position: absolute;
+    width: calc(100% - 10px);
+    top: 10%;
+  }
+  .presentacion {
+    margin: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nombre_empresa {
+    text-align: center;
+    margin: 0;
+  }
+  .descriptivo {
+    text-align: center;
+    font-size: calc(120%);
+    margin: 0;
+  }
+  .btn_contact,
+  .btn_serv {
+    justify-self: center;
+  }
+  .resume_servicios{
+    margin-left: 5px;
+  }
+  .footer{
+    margin-left: 5px;
+  }
+  .tarjeta_foo h4{
+    font-size: 200%;
+  }
+  .tarjeta_foo p{
+    font-size: 90%;
+  }
+  .copyright p{
+    font-size: 100%;
+  }
+  .about{
+    margin-top: calc(60px);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .precio_bod{
+    margin-top: calc(60px);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 533px) {
+  .cabecera h3{
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 460px) {
+  .nombre_empresa {
+    font-size: 4em;
+  }
+  .btn_contact,
+  .btn_serv {
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    transition: 1s;
+    font-size: 0.8em;
+  }
+  .copyright p{
+    font-size: 90%;
+  }
+  .cat-6{
+    margin-bottom: 25px;
+  }
+  .tarjeta_foo h4{
+    font-size: 150%; }
+  .tarjeta_foo p{
+    margin-top: 10px;
+    font-size: 80%;
+  }
+}
+@media (max-width: 350px) {
+  .nombre_empresa {
+    font-size: 3em;
+  }
+  .descriptivo {
+    font-size: calc(100%);
+  }
+  .btn_contact,
+  .btn_serv { margin-top: 30px;
+  }
+  .cabecera h3{
+    font-size: 1.5em;
+  }
+  .cat p{
+    text-align: center;
+  }
+  .tarjeta{
+    width: calc(90%);
+  }
+  .titulo_precio p{
+    text-align: center;
+  }
+  .tarjeta ul{
+    font-size: calc(90%);
+  }
+}
