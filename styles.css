@@ -106,36 +106,10 @@ body {
 .iconos a {
   color: var(--primario);
 }
-.ico:hover::before {
-  background-color: #1c1c1c;
-  border-radius: 5px;
-  width: fit-content;
-  font-size: 0.6em;
-  position: absolute;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.ico_1:hover::before {
-  content: "Inicio";
-  top: 200px;
-  left: 55px;
-}
-.ico_2:hover::before {
-  content: "Precios";
-  left: 55px;
-  top: 270px;
-}
-.ico_3:hover::before {
-  content: "Nosotros";
-  left: 55px;
-  top: 340px;
-}
 .iconos i:hover {
   color: var(--neutro);
   transition: 0.5s;
 }
-
 .texto-nav {
   grid-area: "texto";
   display: flex;

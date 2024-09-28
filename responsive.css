@@ -176,6 +176,10 @@
     margin-top: 10px;
     font-size: 80%;
   }
+  .logo-barra{
+    margin-left: 0;
+    margin-right:0;
+    justify-self: center;}
 }
 @media (max-width: 350px) {
   .nombre_empresa {
