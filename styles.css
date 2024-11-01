@@ -104,7 +104,8 @@ body {
   text-decoration: none;
 }
 .iconos a {
-  color: var(--primario);
+  color: #289993;
+  animation: aparicion 1s ease-in-out;
 }
 .iconos i:hover {
   color: var(--neutro);
